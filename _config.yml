@@ -1,11 +1,12 @@
 # Site settings
-title: HVL Førde GGJ'24
+title: GGJ 2024 - HVL Campus Førde
 email: robotikklabben.forde@gmail.com
 url: https://hvlforde.github.io/globalgamejam_hvl/
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
 short_about: "HVL Campus Førde is hosting a local event for Global Game Jam 2024"
 meta_author: LastName FirstName
+baseurl: "/globalgamejam_hvl"
 
 # Google webmaster tools
 google_verify:
@@ -27,8 +28,8 @@ disqus_shortname: myshortname
 color:
   primary: FFFFFF   # 89CFF0 #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary: 0e3c7b #FD6E8A
+  secondary-dark: 0e3c7b  #233140 #A2122F
 
 # Footer settings
 footer:
@@ -69,3 +70,7 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+
+include:
+  - _pages
